@@ -26,7 +26,7 @@ function Projects() {
               isBlog={false}
               title="Dr.mirou"
               description="Personal Healthcare Chat assistant with AI made in a Hackathon that helps you diagnose your sickness with given symptoms , rich with features like image recognition"
-              ghLink="https://github.com/RyZeDZ/DocAI-hackathon"
+              ghLink="https://mirou.netlify.app"
               
             />
           </Col>
@@ -60,8 +60,8 @@ function Projects() {
               imgPath={ecommerce}
               isBlog={false}
               title="ecommerce website"
-              description="ecommerce webiste for products listing , currently still in developement , upcomming features are online paying , admin dashboard....."
-             
+              description="ecommerce webiste for products listing upcomming features are online payment , admin dashboard....."
+              ghLink="https://clothecommerce.netlify.net"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
