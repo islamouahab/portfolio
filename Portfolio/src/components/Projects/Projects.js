@@ -61,7 +61,7 @@ function Projects() {
               isBlog={false}
               title="ecommerce website"
               description="ecommerce webiste for products listing upcomming features are online payment , admin dashboard....."
-              ghLink="https://clothecommerce.netlify.net"
+              ghLink="https://clothecommerce.netlify.app"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
