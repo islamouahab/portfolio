@@ -6,6 +6,7 @@ import mirou from "../../Assets/Projects/mirou.PNG";
 import doc_lab from "../../Assets/Projects/doc_lab.PNG";
 import reweb from "../../Assets/Projects/reweb.PNG";
 import ecommerce from "../../Assets/Projects/ecommerce.PNG";
+import waslaya from "../../Assets/Projects/waslaya.png"
 
 
 function Projects() {
@@ -63,6 +64,16 @@ function Projects() {
               description="ecommerce webiste for products listing upcomming features are online payment , admin dashboard....."
               ghLink="https://clothecommerce.netlify.app"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={waslaya}
+              isBlog={false}
+              title="waslaya"
+              description="public transport project for governement that shows buses locations in real time"
+              ghLink="https://github.com/islamouahab/waslaya-2.0"
+              demoLink="https://waslaya-2-0.onrender.com/"      
             />
           </Col>
         </Row>
