@@ -7,7 +7,7 @@ import doc_lab from "../../Assets/Projects/doc_lab.PNG";
 import reweb from "../../Assets/Projects/reweb.PNG";
 import ecommerce from "../../Assets/Projects/ecommerce.PNG";
 import waslaya from "../../Assets/Projects/waslaya.png"
-
+import agroX from "../../Assets/Projects/agroX.png"
 
 function Projects() {
   return (
@@ -21,6 +21,17 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+            <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={agroX}
+              isBlog={false}
+              title="agroX"
+              description="Ai model that predict hybridization between plants"
+              ghLink="https://github.com/islamouahab/agroX_Hack"
+              demoLink="https://agrox-hack.onrender.com/"
+              
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={mirou}
@@ -83,3 +94,4 @@ function Projects() {
 }
 
 export default Projects;
+
