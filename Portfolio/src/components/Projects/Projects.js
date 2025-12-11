@@ -7,7 +7,7 @@ import doc_lab from "../../Assets/Projects/doc_lab.PNG";
 import reweb from "../../Assets/Projects/reweb.PNG";
 import ecommerce from "../../Assets/Projects/ecommerce.PNG";
 import waslaya from "../../Assets/Projects/waslaya.png"
-import agroX from "../../Assets/Projects/agroX.png"
+import agroX from "../../Assets/Projects/agroX.PNG"
 
 function Projects() {
   return (
@@ -94,4 +94,5 @@ function Projects() {
 }
 
 export default Projects;
+
 
